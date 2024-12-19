@@ -19,8 +19,8 @@
     # *Note* - Override the following variables based on your tenancy
     # or set a valid value for the corresponding environment variable 
     #########################################
-    compartment_id: "{{ lookup('env', 'SAMPLE_COMPARTMENT_OCID') }}"
-    namespace_name: "{{ lookup('env', 'SAMPLE_OBJECT_NS_NAME') }}"
+    compartment_id: "{{ lookup('env', 'ocid1.compartment.oc1..aaaaaaaajvbl4przvg5dv7s5amnxysbvnpwuuw6rt4qemmwdaowlxlrdxkoa') }}"
+    namespace_name: "{{ lookup('env', 'sehubjapacprod') }}"
 
   tasks:
     - name: Get all the buckets in the namespace
